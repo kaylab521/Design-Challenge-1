@@ -1,0 +1,46 @@
+body {
+    background-color: #f0f0f0;
+}
+text {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+h1 {
+    color: #333;
+}
+button {
+    padding: 12px 24px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 16px;
+    font-family: Arial, sans-serif;
+}
+button#happyButton {
+    background-color: purple;
+    color: #fff;
+}
+button#sadButton {
+    background-color: #1e1e1e;
+    color: #fff;
+}
+button#spaceButton {
+    background-color: navy;
+    color: #fff;
+}
+button#spicyButton {
+    background-color: red;
+    color: #fff;
+}
+button#chillButton {
+    background-color: #3399ff;
+    color: #fff;
+}
+button#romanticButton {
+    background-color: #ff66cc;
+    color: #fff;
+}
+button#luckyButton {
+    background-color: green;
+    color: #fff;
+}
