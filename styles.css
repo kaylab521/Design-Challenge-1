@@ -1,6 +1,38 @@
 body {
     background-color: #f0f0f0;
-    padding: 120px  ;
+    padding: 120px;
+}
+.euphoria-theme {
+    background:linear-gradient(to left, #325dbb, #6d51ea, #6e0dd0, #a32ff5);
+    text-color: #fff;
+}
+.happy-theme {
+    background:linear-gradient(to left, #a3edd8, #f9d423, #f9d423, #f9d423, #f9e69f);
+    text-color: #fff;
+}
+.spicy-theme {
+    background:linear-gradient(to left, #b80c09,#e85D04, #ffba08);
+    text-color: #fff;
+}
+.romantic-theme {
+    background:linear-gradient(to left, #ff66cc, #ff99cc,  #d9b3ff);
+    text-color: #fff;
+}
+.lucky-theme {
+    background:linear-gradient(to left, #00b09b, #96c93d);
+    text-color: #fff;
+}
+.sad-theme {
+    background:linear-gradient(to left, #1e1e1e, #333333);
+    text-color: #fff;
+}
+.space-theme {
+    background:linear-gradient(to left, #000, navy, blue);
+    text-color: #fff;
+}
+.chill-theme {
+    background:linear-gradient(to left, #3399ff, #66ccff);
+    text-color: #fff;
 }
 h1 {
     color: #333;
@@ -18,6 +50,10 @@ p {
     font-family: Avenir, sans-serif;
     font-size: 16px;
 }
+link {
+    color: #fff;
+    text-decoration: none;
+}
 
 button {
     padding: 12px 24px;
@@ -28,6 +64,16 @@ button {
     font-family: Avenir, sans-serif;
     font-weight: bold;
     text-transform: uppercase;
+    border: none;
+}
+button:hover {
+    transform: scale(1.05);
+    background-color: #000;
+    opacity: 0.8;
+}
+button:active {
+    transform: scale(0.95);
+    border: 2px solid #fff;
 }
 div#buttonContainer {
     display: grid;
@@ -37,12 +83,13 @@ div#buttonContainer {
     margin-top: 48px;
 }
 button#happyButton {
-    background-color: rgb(228, 183, 2);
+    background-color: #ffba08;
     color: #fff;
 }
 button#euphoriaButton {
-    background-color: purple;
+    background-color: #430788;
     color: #fff;
+    border: none;
 }
 button#sadButton {
     background-color: #1e1e1e;
@@ -53,7 +100,7 @@ button#spaceButton {
     color: #fff;
 }
 button#spicyButton {
-    background-color: red;
+    background-color: #bb0a1e;
     color: #fff;
 }
 button#chillButton {
