@@ -1,67 +1,35 @@
+:root {
+    --heading-color: #333;
+    --body-color: #333;
+}
 body {
     background-color: #f0f0f0;
     padding: 120px;
 }
-.euphoria-theme {
-    background:linear-gradient(to left, #325dbb, #6d51ea, #6e0dd0, #a32ff5);
-    text-color: #fff;
-}
-.happy-theme {
-    background:linear-gradient(to left, #a3edd8, #f9d423, #f9d423, #f9d423, #f9e69f);
-    text-color: #fff;
-}
-.spicy-theme {
-    background:linear-gradient(to left, #b80c09,#e85D04, #ffba08);
-    text-color: #fff;
-}
-.romantic-theme {
-    background:linear-gradient(to left, #ff66cc, #ff99cc,  #d9b3ff);
-    text-color: #fff;
-}
-.lucky-theme {
-    background:linear-gradient(to left, #00b09b, #96c93d);
-    text-color: #fff;
-}
-.sad-theme {
-    background:linear-gradient(to left, #1e1e1e, #333333);
-    text-color: #fff;
-}
-.space-theme {
-    background:linear-gradient(to left, #000, navy, blue);
-    text-color: #fff;
-}
-.chill-theme {
-    background:linear-gradient(to left, #3399ff, #66ccff);
-    text-color: #fff;
-}
 h1 {
-    color: #333;
+    color: var(--heading-color);
     text-align: center;
-    font-family: Avenir, sans-serif;
+    font-family: phosphate, sans-serif;
 }
 h3 {
-    color: #666;
+    color: var(--heading-color);
     text-align: center;
-    font-family: Avenir, sans-serif;
+    font-family: poppins, sans-serif;
+    color: var(--text-color: #fff);
 }
 p {
-    color: #333;
+    color: var(--body-color);
     text-align: center;
-    font-family: Avenir, sans-serif;
+    font-family: poppins, sans-serif;
     font-size: 16px;
 }
-link {
-    color: #fff;
-    text-decoration: none;
-}
-
 button {
     padding: 12px 24px;
     margin: 10px;
     font-size: 16px;
     cursor: pointer;
     border-radius: 12px;
-    font-family: Avenir, sans-serif;
+    font-family: poppins, sans-serif;
     font-weight: bold;
     text-transform: uppercase;
     border: none;
@@ -75,6 +43,10 @@ button:active {
     transform: scale(0.95);
     border: 2px solid #fff;
 }
+button:focus{
+    transform: scale(1.05);
+    border: 2px solid #fff;
+}
 div#buttonContainer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -82,36 +54,65 @@ div#buttonContainer {
     gap: 1px;
     margin-top: 48px;
 }
+button#euphoriaButton {
+    background-color: #430788;
+    color: #fff;
+}
+.euphoria-theme {
+    background:linear-gradient(to left, #325dbb, #6d51ea, #6e0dd0, #a32ff5);
+    --heading-color: #fff;
+}
 button#happyButton {
     background-color: #ffba08;
     color: #fff;
 }
-button#euphoriaButton {
-    background-color: #430788;
-    color: #fff;
-    border: none;
-}
-button#sadButton {
-    background-color: #1e1e1e;
-    color: #fff;
-}
-button#spaceButton {
-    background-color: navy;
+.happy-theme {
+    background:linear-gradient(to left, #f9e69f, #f9d423);
     color: #fff;
 }
 button#spicyButton {
-    background-color: #bb0a1e;
+    background-color: #b80c09;
     color: #fff;
 }
-button#chillButton {
-    background-color: #3399ff;
-    color: #fff;
+.spicy-theme {
+    background:linear-gradient(to left,#e85D04, #ffba08);
+    text-color: #fff;
 }
 button#romanticButton {
     background-color: #ff66cc;
     color: #fff;
 }
+.romantic-theme {
+    background:linear-gradient(to left, #ff66cc, #ff99cc,  #d9b3ff);
+    text-color: #fff;
+}
 button#luckyButton {
     background-color: green;
     color: #fff;
+}
+.lucky-theme {
+    background:linear-gradient(to left, #00b09b, #96c93d);
+}
+button#sadButton {
+    background-color: #1e1e1e;
+    color: #fff;
+}
+.sad-theme {
+    background:linear-gradient(to left, #1e1e1e, #333333);
+    --heading-color: #fff;
+}
+button#spaceButton {
+    background-color: navy;
+    color: #fff;
+}
+.space-theme {
+    background:linear-gradient(to left, navy, blue);
+    --heading-color: #fff;
+}
+button#chillButton {
+    background-color: #3399ff;
+    color: #fff;
+}
+.chill-theme {
+    background:linear-gradient(to left, #3399ff, #66ccff);
 }
