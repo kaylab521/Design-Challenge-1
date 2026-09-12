@@ -1,1 +1,1 @@
-Press a button to change the theme
+Click a button to change the theme
