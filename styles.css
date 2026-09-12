@@ -15,7 +15,7 @@ h3 {
     color: var(--heading-color);
     text-align: center;
     font-family: poppins, sans-serif;
-    color: var(--text-color: #fff);
+    color: var(--text-color #fff);
 }
 p {
     color: var(--body-color);
@@ -76,7 +76,6 @@ button#spicyButton {
 }
 .spicy-theme {
     background:linear-gradient(to left,#e85D04, #ffba08);
-    text-color: #fff;
 }
 button#romanticButton {
     background-color: #ff66cc;
@@ -84,7 +83,7 @@ button#romanticButton {
 }
 .romantic-theme {
     background:linear-gradient(to left, #ff66cc, #ff99cc,  #d9b3ff);
-    text-color: #fff;
+    --text-color: #fff;
 }
 button#luckyButton {
     background-color: green;
